@@ -1,11 +1,11 @@
--- event level funnel for views/adds/purchases
+-- event level funnel for views/adds/purchases (initial approach)
 select 
 sum(case when event_type = 'view_product' then 1 else 0 end) as viewed,
 sum(case when event_type = 'add_to_cart' then 1 else 0 end) as added,
 sum(case when event_type = 'purchase' then 1 else 0 end) as purchased
 from events;
 
--- event level funnel by device with inconsistencies on mobile
+-- event level funnel by device with inconsistencies on mobile (found issues)
 select 
 s.device_type,
 sum(case when event_type = 'view_product' then 1 else 0 end) as viewed,
@@ -16,7 +16,7 @@ join sessions s
 on e.session_id = s.session_id
 group by s.device_type;
 
--- session level funnel by device
+-- session level funnel by device (fixed approach)
 with funnel as (
 select 
 s.session_id,
