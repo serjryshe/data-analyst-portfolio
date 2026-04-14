@@ -1,21 +1,10 @@
-# data-analyst-portfolio
-Portfolio of SQL-based data analysis projects including sales, customer, and product analytics.
+# Data Analyst Portfolio
 
-# Sales Analysis Project
+Portfolio of SQL-based data analysis projects demonstrating business insights and data-driven decision making.
 
-## Objective
-Analyze customer, product, and sales data to identify revenue, profit, and efficiency patterns.
+## Projects
 
-## Dataset
-- customers
-- orders
-- order_items
-- products
-
-## Key Questions
-- Who are the top customers by profit?
-- Which customers are most efficient (ROI)?
-- How does revenue compare to profitability?
-
-## Tools Used
-- SQL (MySQL)
+### Sales Analysis
+- Analyzed customer revenue, profit, and ROI
+- Identified high-value and high-efficiency customers
+- Demonstrated differences between revenue, profit, and efficiency metrics
