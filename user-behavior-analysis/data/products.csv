@@ -1,0 +1,7 @@
+product_id,product_name,category,price
+1,"Starter Plan",Subscription,19.99
+2,"Pro Plan",Subscription,49.99
+3,"Analytics Add-on",Addon,14.99
+4,"Team Dashboard",Addon,29.99
+5,"Priority Support",Service,9.99
+6,"Automation Pack",Addon,39.99

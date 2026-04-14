@@ -1,0 +1,8 @@
+subscription_id,user_id,plan_name,start_date,monthly_price,status
+1,1,Starter,2024-03-01,19.99,active
+2,3,Starter,2024-03-03,19.99,active
+3,4,Pro,2024-03-04,49.99,active
+4,8,Starter,2024-03-06,19.99,cancelled
+5,10,Starter,2024-03-07,19.99,active
+6,11,Pro,2024-03-08,49.99,active
+7,8,Pro,2024-03-12,49.99,active

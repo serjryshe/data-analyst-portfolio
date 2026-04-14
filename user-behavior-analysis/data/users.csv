@@ -1,0 +1,13 @@
+user_id,signup_date,country,acquisition_channel
+1,2024-03-01,USA,"Google Ads"
+2,2024-03-02,Canada,"Organic Search"
+3,2024-03-03,USA,Instagram
+4,2024-03-03,UK,"Google Ads"
+5,2024-03-04,USA,Referral
+6,2024-03-05,Canada,"Organic Search"
+7,2024-03-05,Germany,Instagram
+8,2024-03-06,USA,"Google Ads"
+9,2024-03-07,Mexico,Referral
+10,2024-03-08,USA,"Organic Search"
+11,2024-03-08,UK,"Google Ads"
+12,2024-03-09,Canada,Instagram
